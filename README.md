@@ -9,3 +9,7 @@ It's a Safari extension to help you keep track of which items on Product Hunt ar
 ## Contributing
 
 Feel free to fork and add features and submit pull requests if you think they'd be useful to others.
+
+## Aubergine
+
+It's an eggplant.
