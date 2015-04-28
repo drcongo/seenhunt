@@ -45,7 +45,7 @@ Array.prototype.forEach.call(elements, function(el, i){
         var style = document.createElement("style");
         document.head.appendChild(style);
         var sheet = style.sheet;
-        sheet.insertRule('.seenhunt_new::before { content: "🍆"; float: left; display: block; margin-top: 15px; margin-right: 10px;}', 0);
+        sheet.insertRule('.seenhunt_new::before { content: "🍆"; float: left; display: block; margin-top: 15px; margin-left: -33px;}', 0);
 
         var parent = el.parentNode;
         if (parent.classList){
