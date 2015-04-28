@@ -1,6 +1,6 @@
 # SeenHunt
 
-It's a Safari extension to help you keep track of which items on Product Hunt are new since your last visit. If it's new, it gets an aubergine emjoi.
+It's a Safari extension to help you keep track of which items on Product Hunt are new since your last visit. If it's new, it gets an aubergine emoji.
 
 
 ![Screenshot](screenshots/seenhunt.png "SeenHunt screenshot")
