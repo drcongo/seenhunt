@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1.3</string>
+	<string>1.1.4</string>
 	<key>CFBundleVersion</key>
-	<string>1.1.3</string>
+	<string>1.1.4</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Database Quota</key>
@@ -36,7 +36,7 @@
 	<key>DeveloperIdentifier</key>
 	<string>YS6HUTFMFX</string>
 	<key>ExtensionInfoDictionaryVersion</key>
-	<string>1.1.3</string>
+	<string>1.0</string>
 	<key>Permissions</key>
 	<dict>
 		<key>Website Access</key>
@@ -52,6 +52,6 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>https://raw.githubusercontent.com/drcongo/seenhunt/master/build/updates.plist</string>
+	<string>https://dl.dropboxusercontent.com/u/19291/code/safari/seenhunt/updates.plist</string>
 </dict>
 </plist>
