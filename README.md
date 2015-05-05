@@ -14,6 +14,8 @@ Just [download from here](https://github.com/drcongo/seenhunt/blob/master/build/
 
 Download it from the [Chrome Web Store](https://chrome.google.com/webstore/detail/seenhunt/lnkdimlaioljolinphlgmngcodjkehpk).
 
+_Note: Linux users should install "ancient" font, for emoji support._
+
 ## Contributing
 
 Feel free to fork and add features and submit pull requests if you think they'd be useful to others.
