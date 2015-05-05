@@ -10,6 +10,10 @@ It's a browser extension for both Chrome and Safari to help you keep track of wh
 
 Just [download from here](https://github.com/drcongo/seenhunt/blob/master/build/seenhunt.safariextz?raw=true) and double click the downloaded file.
 
+## Installing in Chrome
+
+Download it from the [Chrome Web Store](https://chrome.google.com/webstore/detail/seenhunt/lnkdimlaioljolinphlgmngcodjkehpk).
+
 ## Contributing
 
 Feel free to fork and add features and submit pull requests if you think they'd be useful to others.
