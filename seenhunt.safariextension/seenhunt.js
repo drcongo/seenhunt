@@ -35,7 +35,7 @@ var getSeen = function(id){
 };
 
 
-var elements = document.querySelectorAll('div.post--content');
+var elements = document.querySelectorAll('div.post-item--content');
 Array.prototype.forEach.call(elements, function(el, i){
     var id = el.getAttribute('data-href');
     var seen = getSeen(id);
