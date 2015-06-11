@@ -1,6 +1,6 @@
 {
   "name": "SeenHunt",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
   "description": "Add vegetables to new items on Product Hunt.",
   "homepage_url": "https://github.com/drcongo/seenhunt",
