@@ -35,9 +35,9 @@ var getSeen = function(id){
 };
 
 
-var elements = document.querySelectorAll('div.post-item--content');
+var elements = document.querySelectorAll('div.post-item');
 Array.prototype.forEach.call(elements, function(el, i){
-    var id = el.getAttribute('data-href');
+    var id = el.querySelector( 'a.post-item--text--name' ).href.replace( /\/.*?\/(.*)/, '$1' )
     var seen = getSeen(id);
     if(seen === undefined || seen === null){
         // W00t! Something new!
@@ -45,13 +45,12 @@ Array.prototype.forEach.call(elements, function(el, i){
         var style = document.createElement("style");
         document.head.appendChild(style);
         var sheet = style.sheet;
-        sheet.insertRule('.seenhunt_new::before { content: "🍆"; float: left; display: block; margin-top: 15px; margin-left: -33px;}', 0);
+        sheet.insertRule('.seenhunt_new::before { content: "🍆"; float: left; display: block; margin-left: -33px;}', 0);
 
-        var parent = el.parentNode;
-        if (parent.classList){
-            parent.classList.add('seenhunt_new');
+        if (el.classList){
+            el.classList.add('seenhunt_new');
         }else{
-            parent.className += ' ' + 'seenhunt_new';
+            el.className += ' ' + 'seenhunt_new';
         }
         setSeen(id);
     }
